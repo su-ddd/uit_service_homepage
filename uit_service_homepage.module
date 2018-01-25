@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the UIT Service HomePage feature.
+ */
+
+include_once 'uit_service_homepage.features.inc';
