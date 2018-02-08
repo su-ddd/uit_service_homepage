@@ -590,35 +590,5 @@ function uit_service_homepage_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_url_type'.
-  $field_bases['field_url_type'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_url_type',
-    'indexes' => array(
-      'value' => array(
-        0 => 'value',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'list',
-    'settings' => array(
-      'allowed_values' => array(
-        'order' => 'Order',
-        'request' => 'Request',
-        'launch' => 'Launch',
-        'download' => 'Download',
-        'support' => 'Support',
-        'faq' => 'FAQ',
-        'related' => 'Related',
-      ),
-      'allowed_values_function' => '',
-    ),
-    'translatable' => 0,
-    'type' => 'list_text',
-  );
-
   return $field_bases;
 }

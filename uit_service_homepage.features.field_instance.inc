@@ -62,37 +62,6 @@ function uit_service_homepage_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance:
-  // 'field_collection_item-field_service_action_links-field_url_type'.
-  $field_instances['field_collection_item-field_service_action_links-field_url_type'] = array(
-    'bundle' => 'field_service_action_links',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(),
-        'type' => 'list_default',
-        'weight' => 1,
-      ),
-    ),
-    'entity_type' => 'field_collection_item',
-    'field_name' => 'field_url_type',
-    'label' => 'Type of Link',
-    'required' => FALSE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => 3,
-    ),
-  );
-
   // Exported field_instance: 'node-service_page-body'.
   $field_instances['node-service_page-body'] = array(
     'bundle' => 'service_page',
@@ -1838,7 +1807,6 @@ function uit_service_homepage_field_default_field_instances() {
   t('This is the main section for the service home page.');
   t('This section includes links and resources such as related services, or other services that might work for the user if this one does not.');
   t('This section should include pointers to documentation about the service, usually information pages on the uit.stanford.edu or SNOW articles.');
-  t('Type of Link');
   t('URL');
 
   return $field_instances;
